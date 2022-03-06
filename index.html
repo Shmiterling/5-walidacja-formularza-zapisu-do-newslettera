@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walidacjia formularzu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <form id="newsletter-form" action="">
+    <ul id="errors"></ul>
+
+
+    <lable for="name">Imię i nazwisko</lable><br>
+    <input placeholder="Denis Bessarab" type="text" name="name" id="name"><br>
+
+
+    <lable for="email">E-Mail</lable><br>
+    <input placeholder="denis@bessarab.pl" type="email" name="email" id="email"><br>
+
+    <input type="checkbox" name="agree-1" id="agree-1">
+    <label for="agree-1">Wyrażam zgodę - 1</label><br>
+
+
+    <input type="checkbox" name="agree-2" id="agree-2">
+    <label for="agree-2">Wyrażam zgodę - 2</label><br>
+
+    <input type="checkbox" name="all-agree" id="all-agree">
+    <label for="all-agree">Wyrażam zgodę wszytkie zgody</label><br>
+
+    <button type="submit" id="signup">Zapisz do newsletter'a</button>
+  </form>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
